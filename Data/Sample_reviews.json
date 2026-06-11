@@ -1,1 +1,30 @@
-
+[
+  {
+    "id": "1",
+    "text": "I absolutely love this laptop! The battery life is outstanding and the display is crystal clear. Best purchase I've made this year."
+  },
+  {
+    "id": "2",
+    "text": "The customer service was terrible. I waited 3 hours and nobody helped me. The product quality is also below average. Very disappointed."
+  },
+  {
+    "id": "3",
+    "text": "The package arrived on time. The product works as described. Nothing extraordinary but nothing bad either."
+  },
+  {
+    "id": "4",
+    "text": "Great camera and smooth performance, but the charging speed is frustratingly slow and the price is way too high for what you get."
+  },
+  {
+    "id": "5",
+    "text": "This coffee maker produces the most amazing espresso I've ever tasted. The build quality feels premium. The milk frother could be better though."
+  },
+  {
+    "id": "om1",
+    "text": "The food was delicious and the portions were generous, but the service was painfully slow and the restaurant was noisy."
+  },
+  {
+    "id": "om2",
+    "text": "Battery life on this phone is fantastic—easily two full days. However, the camera quality is disappointing in low light."
+  }
+]
