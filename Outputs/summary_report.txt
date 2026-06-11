@@ -1,0 +1,33 @@
+======================================================================
+          AZURE COGNITIVE SERVICES SENTIMENT ANALYSIS REPORT          
+======================================================================
+Execution Mode : LIVE (Azure Cognitive Services)
+Total Docs     : 7
+Elapsed Time   : 1.446 seconds
+----------------------------------------------------------------------
+SENTIMENT DISTRIBUTION SUMMARY:
+  * POSITIVE :   2 ( 28.6%)
+  * MIXED    :   2 ( 28.6%)
+  * NEUTRAL  :   0 (  0.0%)
+  * NEGATIVE :   3 ( 42.9%)
+----------------------------------------------------------------------
+AVERAGE CONFIDENCE SCORES:
+  * Positive Confidence: 0.4700
+  * Neutral Confidence : 0.0343
+  * Negative Confidence: 0.4957
+----------------------------------------------------------------------
+ASPECT-BASED OPINION MINING (SAMPLES):
+  - Aspect: 'laptop' is rated POSITIVE (described as: love)
+  - Aspect: 'battery life' is rated POSITIVE (described as: outstanding)
+  - Aspect: 'display' is rated POSITIVE (described as: crystal clear)
+  - Aspect: 'purchase' is rated POSITIVE (described as: Best)
+  - Aspect: 'customer service' is rated NEGATIVE (described as: terrible)
+  - Aspect: 'product quality' is rated NEGATIVE (described as: below average)
+  - Aspect: 'product' is rated POSITIVE (described as: works)
+  - Aspect: 'camera' is rated POSITIVE (described as: Great)
+  - Aspect: 'performance' is rated POSITIVE (described as: smooth)
+  - Aspect: 'charging speed' is rated NEGATIVE (described as: slow)
+  - Aspect: 'price' is rated NEGATIVE (described as: too high)
+  - Aspect: 'espresso' is rated POSITIVE (described as: amazing)
+  ... and 6 other opinion aspects.
+======================================================================

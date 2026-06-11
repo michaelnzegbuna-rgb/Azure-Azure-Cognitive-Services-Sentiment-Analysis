@@ -1,0 +1,428 @@
+[
+  {
+    "id": "1",
+    "overall_label": "positive",
+    "confidence": {
+      "positive": 1.0,
+      "neutral": 0.0,
+      "negative": 0.0
+    },
+    "sentences": [
+      {
+        "text": "I absolutely love this laptop! ",
+        "label": "positive",
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      },
+      {
+        "text": "The battery life is outstanding and the display is crystal clear. ",
+        "label": "positive",
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      },
+      {
+        "text": "Best purchase I've made this year.",
+        "label": "positive",
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      }
+    ],
+    "opinions": [
+      {
+        "aspect": "laptop",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "love",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      },
+      {
+        "aspect": "battery life",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "outstanding",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      },
+      {
+        "aspect": "display",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "crystal clear",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      },
+      {
+        "aspect": "purchase",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "Best",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "overall_label": "negative",
+    "confidence": {
+      "positive": 0.0,
+      "neutral": 0.12,
+      "negative": 0.88
+    },
+    "sentences": [
+      {
+        "text": "The customer service was terrible. ",
+        "label": "negative",
+        "positive": 0.0,
+        "neutral": 0.0,
+        "negative": 1.0
+      },
+      {
+        "text": "I waited 3 hours and nobody helped me. ",
+        "label": "negative",
+        "positive": 0.0,
+        "neutral": 0.0,
+        "negative": 1.0
+      },
+      {
+        "text": "The product quality is also below average. ",
+        "label": "negative",
+        "positive": 0.0,
+        "neutral": 0.46,
+        "negative": 0.53
+      },
+      {
+        "text": "Very disappointed.",
+        "label": "negative",
+        "positive": 0.0,
+        "neutral": 0.0,
+        "negative": 1.0
+      }
+    ],
+    "opinions": [
+      {
+        "aspect": "customer service",
+        "aspect_label": "negative",
+        "assessments": [
+          {
+            "text": "terrible",
+            "label": "negative",
+            "positive": 0.02,
+            "negative": 0.98
+          }
+        ]
+      },
+      {
+        "aspect": "product quality",
+        "aspect_label": "negative",
+        "assessments": [
+          {
+            "text": "below average",
+            "label": "negative",
+            "positive": 0.01,
+            "negative": 0.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "overall_label": "mixed",
+    "confidence": {
+      "positive": 0.76,
+      "neutral": 0.12,
+      "negative": 0.12
+    },
+    "sentences": [
+      {
+        "text": "The package arrived on time. ",
+        "label": "positive",
+        "positive": 0.98,
+        "neutral": 0.02,
+        "negative": 0.0
+      },
+      {
+        "text": "The product works as described. ",
+        "label": "positive",
+        "positive": 0.97,
+        "neutral": 0.03,
+        "negative": 0.0
+      },
+      {
+        "text": "Nothing extraordinary but nothing bad either.",
+        "label": "negative",
+        "positive": 0.33,
+        "neutral": 0.32,
+        "negative": 0.35
+      }
+    ],
+    "opinions": [
+      {
+        "aspect": "product",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "works",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "overall_label": "negative",
+    "confidence": {
+      "positive": 0.03,
+      "neutral": 0.0,
+      "negative": 0.97
+    },
+    "sentences": [
+      {
+        "text": "Great camera and smooth performance, but the charging speed is frustratingly slow and the price is way too high for what you get.",
+        "label": "negative",
+        "positive": 0.03,
+        "neutral": 0.0,
+        "negative": 0.97
+      }
+    ],
+    "opinions": [
+      {
+        "aspect": "camera",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "Great",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      },
+      {
+        "aspect": "performance",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "smooth",
+            "label": "positive",
+            "positive": 0.99,
+            "negative": 0.01
+          }
+        ]
+      },
+      {
+        "aspect": "charging speed",
+        "aspect_label": "negative",
+        "assessments": [
+          {
+            "text": "slow",
+            "label": "negative",
+            "positive": 0.0,
+            "negative": 1.0
+          }
+        ]
+      },
+      {
+        "aspect": "price",
+        "aspect_label": "negative",
+        "assessments": [
+          {
+            "text": "too high",
+            "label": "negative",
+            "positive": 0.01,
+            "negative": 0.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "overall_label": "positive",
+    "confidence": {
+      "positive": 1.0,
+      "neutral": 0.0,
+      "negative": 0.0
+    },
+    "sentences": [
+      {
+        "text": "This coffee maker produces the most amazing espresso I've ever tasted. ",
+        "label": "positive",
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      },
+      {
+        "text": "The build quality feels premium. ",
+        "label": "neutral",
+        "positive": 0.26,
+        "neutral": 0.74,
+        "negative": 0.0
+      },
+      {
+        "text": "The milk frother could be better though.",
+        "label": "neutral",
+        "positive": 0.4,
+        "neutral": 0.56,
+        "negative": 0.05
+      }
+    ],
+    "opinions": [
+      {
+        "aspect": "espresso",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "amazing",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      },
+      {
+        "aspect": "build quality",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "premium",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "om1",
+    "overall_label": "negative",
+    "confidence": {
+      "positive": 0.0,
+      "neutral": 0.0,
+      "negative": 1.0
+    },
+    "sentences": [
+      {
+        "text": "The food was delicious and the portions were generous, but the service was painfully slow and the restaurant was noisy.",
+        "label": "negative",
+        "positive": 0.0,
+        "neutral": 0.0,
+        "negative": 1.0
+      }
+    ],
+    "opinions": [
+      {
+        "aspect": "food",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "delicious",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      },
+      {
+        "aspect": "portions",
+        "aspect_label": "positive",
+        "assessments": [
+          {
+            "text": "generous",
+            "label": "positive",
+            "positive": 1.0,
+            "negative": 0.0
+          }
+        ]
+      },
+      {
+        "aspect": "service",
+        "aspect_label": "negative",
+        "assessments": [
+          {
+            "text": "slow",
+            "label": "negative",
+            "positive": 0.01,
+            "negative": 0.99
+          }
+        ]
+      },
+      {
+        "aspect": "restaurant",
+        "aspect_label": "negative",
+        "assessments": [
+          {
+            "text": "noisy",
+            "label": "negative",
+            "positive": 0.01,
+            "negative": 0.99
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "om2",
+    "overall_label": "mixed",
+    "confidence": {
+      "positive": 0.5,
+      "neutral": 0.0,
+      "negative": 0.5
+    },
+    "sentences": [
+      {
+        "text": "Battery life on this phone is fantastic—easily two full days. ",
+        "label": "positive",
+        "positive": 1.0,
+        "neutral": 0.0,
+        "negative": 0.0
+      },
+      {
+        "text": "However, the camera quality is disappointing in low light.",
+        "label": "negative",
+        "positive": 0.0,
+        "neutral": 0.0,
+        "negative": 1.0
+      }
+    ],
+    "opinions": [
+      {
+        "aspect": "camera quality",
+        "aspect_label": "negative",
+        "assessments": [
+          {
+            "text": "disappointing",
+            "label": "negative",
+            "positive": 0.0,
+            "negative": 1.0
+          }
+        ]
+      }
+    ]
+  }
+]
